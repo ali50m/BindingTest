@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ali50m.Behaviors" Version="107.212.22305.411160022" />
+    </ItemGroup>
+</Project>
